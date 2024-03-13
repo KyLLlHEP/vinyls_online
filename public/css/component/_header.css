@@ -1,5 +1,66 @@
-.header {
-    width: 1280px;
-    height: 80px;
-    border: 1px solid gray;
+.site-header {
+    background-color: var(--color-purple);
+    height: 140px;
+    width: 1600px;
+    position: fixed;
+    padding-top: 30px;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+}
+.logo-pic {
+    width: 30px;
+    height: 30px;
+}
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    padding-left: 110px;
+    margin-left: 155px;
+}
+.logo-txt {
+    font-family: "Montserrat";
+    font-size: 24px;
+    color: var(--white);
+}
+.logo-pic {
+    padding-left: 10px;
+}
+.menu-container {
+    display: flex;
+    align-items: center;
+    padding-top: 18px;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+.header-menu {
+    list-style: none;
+    padding: 0;
+}
+.menu-item {
+    display: inline;
+    margin-right: 30px;
+    text-decoration: none;
+}
+.menu-item:last-child {
+    margin-right: 0;
+}
+.menu-link {
+    text-decoration: none;
+    font-family: "Montserrat";
+    font-size: 17px;
+    color: var(--white);
+    transition: 0.3s;
+}
+.menu-link:hover {
+    color: var(--gold);
+    border-bottom: 3px solid var(--gold);
+    font-weight: bold;
 }

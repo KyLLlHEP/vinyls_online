@@ -1,5 +1,10 @@
-.main {
-    max-width: 1630px;
-    height: 100vh;
-    background-color: #a683ef;
+main {
+    width: 1660px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.content-container {
+    width: 1630px;
+    margin: 0 auto;
 }
