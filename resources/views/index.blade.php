@@ -26,8 +26,8 @@
                             <li class="menu-item"><a class="menu-link" href="#">Single</a></li>
                         </ul>
                         <div class="cart">
-                            <img src="#" alt="Shopping Trolly">
-                            <span>£350</span>
+                            <img class = "cart-img"  src="../images/shop-basket.svg" alt="Shopping Trolly">
+                            <span class="cart-price">£350</span>
                         </div>
                         <div class="user-avatar">
                             <img src="#" alt="User Avatar">

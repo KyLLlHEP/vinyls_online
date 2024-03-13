@@ -64,3 +64,29 @@
     border-bottom: 3px solid var(--gold);
     font-weight: bold;
 }
+.cart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-right: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.cart:hover {
+    transform: scale(1.1);
+}
+.cart-img {
+    margin-left: 5px;
+}
+.cart-price {
+    color: var(--white);
+    display: block;
+    margin-right: 10px;
+    transform: color 0.3s, font-size 0.3s;
+}
+.cart:hover .cart-price {
+    color: var(--green);
+    font-size: 1.1em;
+}
