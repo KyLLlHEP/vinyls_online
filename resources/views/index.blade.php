@@ -50,24 +50,81 @@
             </div>
         </div>
         <section class="choose-section">
-    <h2 class="section-title">Why choose our vinyl records?</h2>
-    <div class="choose-container">
-        <div class="choose-item">
-            <img src="perfect_quality_image.jpg" alt="Perfect Quality">
-            <h3 class="choose-title">Perfect Quality</h3>
-            <p class="choose-description">Our records sound clear and noise-free, all thanks to the highest quality product!</p>
+            <h2 class="section-title">Why choose our vinyl records?</h2>
+            <div class="choose-container">
+                <div class="choose-item">
+                    <div class="choose-items-pic">
+                    <img src="../images/note.svg" alt="Perfect Quality">
+                    </div>
+                    <div class="choose-items-describe">
+                    <h3 class="choose-title">Perfect Quality</h3>
+                    <p class="choose-description">Our records sound clear and<br>
+                    noise-free, all thanks to the<br>
+                    highest qualityproduct!</p>
+
+                </div>
+                <div class="choose-item">
+                    <div class="choose-items-pic">
+                    <img src="../images/cloud.svg" alt="Perfect Quality">
+                    </div>
+                    <div class="choose-items-describe">
+                    <h3 class="choose-title">Ambience</h3>
+                    <p class="choose-description">We select only the best albums<br>
+                    to create an incredible<br>
+                    ambience right in your home.
+                </div>
+                <div class="choose-item">
+                    <div class="choose-items-pic">
+                    <img src="../images/paint.svg" alt="Not just the sound">
+                    </div>
+                    <div class="choose-items-describe">
+                    <h3 class="choose-title">Not just the sound</h3>
+                    <p class="choose-description">The most real art! All records can<br>
+                    be the perfect addition to your<br>
+                    interior!
+                </div>
+            </div>
+        </section>
+        <section class="catalogue">
+            <h2>Our record catalogue</h2>
+             <ul class="category-list">
+                <li><a href="#all">All</a></li>
+                <li><a href="#hip-hop">Hip hop</a></li>
+                <li><a href="#lo-fi">Lo-fi</a></li>
+                <li><a href="#lounge">Lounge</a></li>
+                <li><a href="#jazz">Jazz</a></li>
+                <li><a href="#ambient">Ambient</a></li>
+            </ul>
+
+            <div class="slider">
+                    <div class="arrow-left"><</div>
+                    <div class="cards">
+                <div class="card">
+                    <img src="artist1.jpg" alt="Artist 1">
+                    <h3>Artist Name</h3>
+                    <p>Album Name</p>
+                <div class="music-style">
+                    <div class="style-circle" style="background-color: #ff0000;"></div>
+                    <span>Music Style</span>
+                </div>
+                <div class="price">
+                    <span>£99</span>
+                </div>
+            </div>
+            <!-- Добавьте другие карточки по аналогии -->
         </div>
-        <div class="choose-item">
-            <img src="wide_selection_image.jpg" alt="Wide Selection">
-            <h3 class="choose-title">Wide Selection</h3>
-            <p class="choose-description">We offer a wide variety of vinyl records, from classics to the latest releases!</p>
-        </div>
-        <div class="choose-item">
-            <img src="affordable_prices_image.jpg" alt="Affordable Prices">
-            <h3 class="choose-title">Affordable Prices</h3>
-            <p class="choose-description">Our prices are affordable, so you can enjoy your favorite music without breaking the bank!</p>
-        </div>
+        <div class="arrow-right">></div>
     </div>
+
+    <div class="slider-navigation">
+        <div class="nav-circle active"></div>
+        <div class="nav-circle"></div>
+        <div class="nav-circle"></div>
+        <div class="nav-circle"></div>
+        <div class="nav-circle"></div>
+    </div>
+
+    <button class="see-all">See all</button>
 </section>
 
 

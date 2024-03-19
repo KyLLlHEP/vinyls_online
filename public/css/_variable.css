@@ -1,10 +1,11 @@
 :root {
     --color-purple: #a683ef;
     --white: #ffffff;
+    --black: #000;
     --gold: #ffd700;
     --green: #008000;
     --coral: #ff7272;
     --sunshine: #ffc46c;
-
+    --soft-blue: #a5b4f7;
     --gradient-color: linear-gradient(to bottom, var(--sunshine), var(--coral));
 }

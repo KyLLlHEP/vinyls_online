@@ -1,0 +1,7 @@
+.catalogue {
+    width: 1610px;
+    min-height: 100vh;
+    background-color: var(--soft-blue);
+    margin-top: -60px;
+    margin-left: -4px;
+}

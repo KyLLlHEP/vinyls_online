@@ -33,6 +33,7 @@
     height: 101px;
     border-radius: 12px;
     padding-right: 40px;
+    /* background: linear-gradient(to bottom, #ffc46c, #ff7272); */
     background: var(--gradient-color);
     background-repeat: no-repeat;
     background-position: right center;
