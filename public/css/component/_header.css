@@ -2,8 +2,8 @@
     background-color: var(--color-purple);
     height: 140px;
     width: 1600px;
-    position: fixed;
-    padding-top: 30px;
+    /* position: fixed; */
+    padding-top: 10px;
     top: 0;
     z-index: 999;
     display: flex;
@@ -89,4 +89,21 @@
 .cart:hover .cart-price {
     color: var(--green);
     font-size: 1.1em;
+}
+.user-avatar {
+    display: flex;
+    align-items: center;
+}
+
+.avatar-img {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: -20px;
+}
+
+.login-link {
+    text-decoration: none;
+    color: var(--white);
 }

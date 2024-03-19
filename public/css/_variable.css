@@ -3,4 +3,8 @@
     --white: #ffffff;
     --gold: #ffd700;
     --green: #008000;
+    --coral: #ff7272;
+    --sunshine: #ffc46c;
+
+    --gradient-color: linear-gradient(to bottom, var(--sunshine), var(--coral));
 }

@@ -7,4 +7,5 @@ main {
 .content-container {
     width: 1630px;
     margin: 0 auto;
+    height: 100%;
 }
