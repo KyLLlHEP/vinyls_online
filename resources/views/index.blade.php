@@ -86,46 +86,36 @@
             </div>
         </section>
         <section class="catalogue">
-            <h2>Our record catalogue</h2>
-             <ul class="category-list">
-                <li><a href="#all">All</a></li>
-                <li><a href="#hip-hop">Hip hop</a></li>
-                <li><a href="#lo-fi">Lo-fi</a></li>
-                <li><a href="#lounge">Lounge</a></li>
-                <li><a href="#jazz">Jazz</a></li>
-                <li><a href="#ambient">Ambient</a></li>
-            </ul>
-
-            <div class="slider">
-                    <div class="arrow-left"><</div>
-                    <div class="cards">
-                <div class="card">
-                    <img src="artist1.jpg" alt="Artist 1">
-                    <h3>Artist Name</h3>
-                    <p>Album Name</p>
-                <div class="music-style">
-                    <div class="style-circle" style="background-color: #ff0000;"></div>
-                    <span>Music Style</span>
+            <div class="catalogue-container">
+                <h2 class = "catalogue-tittle" >Our record catalogue</h2>
+                <div class="category-list-container">
+                    <ul class="category-list">
+                    <li class="category-item first-button"><a href="#all">All</a></li>
+                    <li class="category-item"><a href="#hip-hop">Hip hop</a></li>
+                    <li class="category-item"><a href="#lo-fi">Lo-fi</a></li>
+                    <li class="category-item"><a href="#lounge">Lounge</a></li>
+                    <li class="category-item"><a href="#jazz">Jazz</a></li>
+                    <li class="category-item"><a href="#ambient">Ambient</a></li>
+                    </ul>
+            </div>
+            <div class="catalogue-slider">
+                <div class="slider-cards">
+                    <div class="card card-left custom-content-style">
+                        <div class="album-cover"></div>
+                    </div>
+                    <div class="card card-middle custom-content-style">
+                    <div class="album-cover"></div>
+                    </div>
+                    <div class="card card-right custom-content-style">
+                    <div class="album-cover"></div>
+                    </div>
                 </div>
-                <div class="price">
-                    <span>£99</span>
+                <div class="slider-arrows">
+                    <button class = "slider-arrow prev"><</button>
+                    <button class = "slider-arrow next">></button>
                 </div>
             </div>
-            <!-- Добавьте другие карточки по аналогии -->
-        </div>
-        <div class="arrow-right">></div>
-    </div>
-
-    <div class="slider-navigation">
-        <div class="nav-circle active"></div>
-        <div class="nav-circle"></div>
-        <div class="nav-circle"></div>
-        <div class="nav-circle"></div>
-        <div class="nav-circle"></div>
-    </div>
-
-    <button class="see-all">See all</button>
-</section>
+        </section>
 
 
             <footer class="site-footer">

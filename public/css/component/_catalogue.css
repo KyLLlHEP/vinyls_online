@@ -1,7 +1,117 @@
 .catalogue {
-    width: 1610px;
+    width: 1600px;
     min-height: 100vh;
     background-color: var(--soft-blue);
-    margin-top: -60px;
-    margin-left: -4px;
+    margin: 0 auto;
+}
+.catalogue-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: -70px;
+}
+.catalogue-tittle {
+    font-family: "Montserrat";
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--white);
+    padding-top: 105px;
+    padding-left: 20px;
+    margin-left: 110px;
+    overflow: hidden;
+}
+.category-list-container {
+    margin-left: 70px;
+    padding-left: 10px;
+}
+.category-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin-left: 20px;
+}
+.category-item {
+    min-width: 165px;
+    height: 48px;
+    display: inline-block;
+    border: 3px solid var(--white);
+    border-radius: 40px;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+.category-item a {
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--white);
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 35px;
+    text-decoration: none;
+    text-align: center;
+}
+.first-button {
+    background: var(--gradient-color);
+}
+.category-item:hover {
+    opacity: 0.5;
+    background: var(--green);
+}
+.catalogue-slider {
+    width: 100%;
+    min-height: 730px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.slider-cards {
+    width: 1190px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding: 0 20px;
+    margin-left: 47px;
+}
+.card {
+    width: 350px;
+    height: 470px;
+    background-color: var();
+    border-radius: 36px;
+}
+.card-left {
+    margin-right: 30px;
+}
+.slider-arrows {
+    position: absolute;
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 400px;
+    margin-top: -37px;
+}
+.slider-arrow {
+    width: 44px;
+    height: 44px;
+    font-size: 32px;
+    border-radius: 50%;
+    background-color: var(--white);
+    border: none;
+    cursor: pointer;
+}
+.slider-arrow.prev {
+    margin-left: -35px;
+}
+
+.slider-arrow.next {
+    margin-right: 97px;
+}
+.album-cover {
+    width: 272px;
+    height: 272px;
+    margin-top: 27px;
+    margin-left: 40px;
+    border: 1px solid gray;
+    border-radius: 13px;
 }
