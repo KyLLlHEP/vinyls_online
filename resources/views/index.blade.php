@@ -101,7 +101,9 @@
             <div class="catalogue-slider">
                 <div class="slider-cards">
                     <div class="card card-left custom-content-style">
-                        <div class="album-cover"></div>
+                        <div class="album-cover">
+                        <img src="../images/grandson.png" alt="Album Cover">
+                        </div>
                     </div>
                     <div class="card card-middle custom-content-style">
                     <div class="album-cover"></div>
