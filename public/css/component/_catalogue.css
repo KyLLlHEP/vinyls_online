@@ -74,7 +74,7 @@
 .card {
     width: 350px;
     height: 470px;
-    background-color: var();
+    background-color: var(--white);
     border-radius: 36px;
 }
 .card-left {
@@ -111,6 +111,40 @@
     height: 272px;
     margin-top: 27px;
     margin-left: 40px;
-    border: 1px solid gray;
     border-radius: 13px;
+}
+.artist-details {
+    margin-top: 18px;
+    margin-left: 40px;
+    font-family: "Montserrat";
+}
+.artist-name {
+    font-size: 8;
+    font-weight: 500;
+    letter-spacing: 0;
+    color: var(--gray);
+}
+.album-title {
+    font-size: 18;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: var(--black);
+    margin-top: 10px;
+}
+.music-style {
+    margin-top: 15px;
+    margin-left: 42px;
+    margin-bottom: -9px;
+}
+.style-circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.style-name {
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 6px;
 }

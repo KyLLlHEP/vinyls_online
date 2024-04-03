@@ -104,12 +104,52 @@
                         <div class="album-cover">
                         <img src="../images/grandson.png" alt="Album Cover">
                         </div>
+                        <div class="artist-details">
+                            <div class="artist-name">grandson</div>
+                            <div class="album-title">Death Of An Optimist</div>
+                        </div>
+                        <div class="music-style">
+                            <span class="style-circle alternative-rock-bg"></span>
+                            <span class="style-name alternative-rock ">Alternative Rock</span>
+                        </div>
+                        <div class="music-style">
+                            <span class="style-circle hip-hop-bg"></span>
+                            <span class="style-name hip-hop">Hip hop</span>
+                        </div>
                     </div>
                     <div class="card card-middle custom-content-style">
-                    <div class="album-cover"></div>
+                        <div class="album-cover">
+                        <img src="../images/linkin park.png" alt="Album Cover">
+                        </div>
+                        <div class="artist-details">
+                            <div class="artist-name">Linkin Park</div>
+                            <div class="album-title">Minutes to midnight</div>
+                        </div>
+                        <div class="music-style">
+                            <span class="style-circle alternative-rock-bg"></span>
+                            <span class="style-name alternative-rock ">Alternative Rock</span>
+                        </div>
+                        <div class="music-style">
+                            <span class="style-circle punk-rock-bg"></span>
+                            <span class="style-name punk-rock">Punk Rock</span>
+                        </div>
                     </div>
                     <div class="card card-right custom-content-style">
-                    <div class="album-cover"></div>
+                        <div class="album-cover">
+                        <img src="../images/gorillaz.png" alt="Album Cover">
+                        </div>
+                        <div class="artist-details">
+                            <div class="artist-name">Gorillaz</div>
+                            <div class="album-title">Demon Days</div>
+                        </div>
+                        <div class="music-style">
+                            <span class="style-circle pop-bg"></span>
+                            <span class="style-name pop">POP</span>
+                        </div>
+                        <div class="music-style">
+                            <span class="style-circle funk-bg"></span>
+                            <span class="style-name funk">Funk</span>
+                        </div>
                     </div>
                 </div>
                 <div class="slider-arrows">
