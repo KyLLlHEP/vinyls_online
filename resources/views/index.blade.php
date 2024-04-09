@@ -100,9 +100,9 @@
             </div>
             <div class="catalogue-slider">
                 <div class="slider-cards">
-                    <div class="card card-left custom-content-style">
+                    <div class="card custom-content-style">
                         <div class="album-cover">
-                        <img src="../images/grandson.png" alt="Album Cover">
+                            <img src="../images/grandson.png" alt="Death Of An Optimist album cover by grandson">
                         </div>
                         <div class="artist-details">
                             <div class="artist-name">grandson</div>
@@ -111,15 +111,18 @@
                         <div class="music-style">
                             <span class="style-circle alternative-rock-bg"></span>
                             <span class="style-name alternative-rock ">Alternative Rock</span>
+                            <span class="discount">-50%</span>
                         </div>
                         <div class="music-style">
                             <span class="style-circle hip-hop-bg"></span>
                             <span class="style-name hip-hop">Hip hop</span>
+                            <span class="price">£99</span>
+                            <span class="old-price">£129</span>
                         </div>
                     </div>
-                    <div class="card card-middle custom-content-style">
+                    <div class="card custom-content-style">
                         <div class="album-cover">
-                        <img src="../images/linkin park.png" alt="Album Cover">
+                        <img src="../images/linkin park.png" alt="Linkin park albom picture">
                         </div>
                         <div class="artist-details">
                             <div class="artist-name">Linkin Park</div>
@@ -128,15 +131,18 @@
                         <div class="music-style">
                             <span class="style-circle alternative-rock-bg"></span>
                             <span class="style-name alternative-rock ">Alternative Rock</span>
+                            <span class="discount">-50%</span>
                         </div>
                         <div class="music-style">
                             <span class="style-circle punk-rock-bg"></span>
                             <span class="style-name punk-rock">Punk Rock</span>
+                            <span class="price">£75</span>
+                            <span class="old-price">£99</span>
                         </div>
                     </div>
-                    <div class="card card-right custom-content-style">
+                    <div class="card custom-content-style">
                         <div class="album-cover">
-                        <img src="../images/gorillaz.png" alt="Album Cover">
+                            <img src="../images/gorillaz.png" alt="Album picture Gorillaz">
                         </div>
                         <div class="artist-details">
                             <div class="artist-name">Gorillaz</div>
@@ -145,18 +151,50 @@
                         <div class="music-style">
                             <span class="style-circle pop-bg"></span>
                             <span class="style-name pop">POP</span>
+                            <span class="discount">-30%</span>
                         </div>
                         <div class="music-style">
                             <span class="style-circle funk-bg"></span>
                             <span class="style-name funk">Funk</span>
+                            <span class="price">£109</span>
+                            <span class="old-price">£149</span>
                         </div>
                     </div>
                 </div>
                 <div class="slider-arrows">
-                    <button class = "slider-arrow prev"><</button>
-                    <button class = "slider-arrow next">></button>
+                    <button class = "slider-arrow prev" aria-label = "Previous slide"><</button>
+                    <button class = "slider-arrow next" aria-label = "Next slide">></button>
                 </div>
             </div>
+            <div class="slider-indicators">
+                <span class="indicator active"></span>
+                <span class="indicator"></span>
+                <span class="indicator"></span>
+                <span class="indicator"></span>
+                <span class="indicator"></span>
+            </div>
+            <div class="catalogue-actions">
+                <a href="#" class="see-all-button">See all</a>
+            </div>
+        </section>
+        <section class="record-compilations">
+            <div class="top-bar">
+                <h2 class="section-title">Record compilations</h2>
+            </div>
+                <div class="compilations-container">
+                    <div class="compilation-item" style="background-image: url('../images/hip-hop.png');">
+                        <span class="compilation-title">Best of </br></br> Hip-hop</span>
+                    </div>
+                    <div class="compilation-item" style="background-image: url('../images/clasic-rock.png');">
+                        <span class="compilation-title">Classics </br></br> Rock</span>
+                    </div>
+                    <div class="compilation-item" style="background-image: url('../images/chill-out.png');">
+                        <span class="compilation-title">Chill Out </br></br> Ambient</span>
+                    </div>
+                </div>
+                <div class="more-link-container">
+                    <a href="#" class="more-link">More</a>
+                </div>
         </section>
 
 
