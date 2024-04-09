@@ -194,12 +194,12 @@
                 </div>
                 <div class="more-link-container">
                     <a href="#" class="more-link">More</a>
-                </div>
+            </div>
         </section>
-
-
             <footer class="site-footer">
-                <!-- Здесь размещаем содержимое подвала сайта -->
+                <div class="footer-wrapper">
+                    <img src="../images/footer-bg.jpg" alt="Back graund footer ">
+                </div>
             </footer>
         </div>
     </main>
