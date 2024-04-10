@@ -200,6 +200,12 @@
                 <div class="footer-wrapper">
                     <img src="../images/footer-bg.jpg" alt="Back graund footer ">
                 </div>
+                <div class="footer-navigation">
+                        <a class = "footer-navigation-items" href="#">VinylsOnline</a>
+                        <a class = "footer-navigation-items" href="#">FAQ</a>
+                        <a class = "footer-navigation-items" href="#">About us</a>
+                        <a class = "footer-navigation-items" href="#">Contact</a>
+                </div>
             </footer>
         </div>
     </main>

@@ -1,4 +1,9 @@
 .site-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
     width: 100%;
     min-height: 250px;
     position: relative;
@@ -23,4 +28,23 @@
     object-fit: cover;
     opacity: 0.15;
     z-index: 1;
+}
+.footer-navigation {
+    width: 110px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-navigation-items {
+    text-decoration: none;
+    color: var(--white);
+    cursor: pointer;
+    transition: transform 0.3s, color 0.3s;
+}
+.footer-navigation-items:hover {
+    transform: scale(1.05);
+    color: var(--gold);
 }
