@@ -31,7 +31,7 @@
                         </div>
                         <div class="user-avatar">
                             <img  class = "avatar-img" src="../images/avatar.png" alt="User Avatar">
-                            <a class = "login_link" href="#">Login/Register</a>
+                            <a class = "login_link" href="/user">Login/Register</a>
                         </div>
                     </div>
                 </div>

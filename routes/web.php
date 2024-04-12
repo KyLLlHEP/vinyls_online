@@ -6,10 +6,18 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('index');
+})->name('index');
+Route::get('/login', function () {
+    return view('login');
 });
-Route::get('/about', function () {
-    return view('about');
+Route::get('/register', function () {
+    return view('register');
 });
-Route::get('/contact', function () {
-    return view('contact');
+Route::get('/user', function () {
+    return view('user');
 });
+
+
+use App\Http\Controllers\RegisterController;
+
+Route::post('/register', [RegisterController::class, 'register'])->name('register');

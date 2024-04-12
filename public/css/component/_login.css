@@ -1,0 +1,30 @@
+.auth-options {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+.auth-options a {
+    width: 100%;
+}
+.register-form {
+    max-width: 400px;
+    margin: auto;
+}
+
+.register-form form {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    margin-bottom: 15px;
+}
