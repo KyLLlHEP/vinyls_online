@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\AccountController;
+use App\Http\Controllers\RegisterController;
 
 
 Route::get('/', function () {
@@ -16,10 +17,10 @@ Route::get('/register', function () {
 Route::get('/user', function () {
     return view('user');
 });
-Route::get('/account', function () {
-    return view('account');
-});
+// Route::get('/account', function () {
+//     return view('account');
+// });
 
-use App\Http\Controllers\RegisterController;
-
+Route::get('/account', [AccountController::class, 'index'])->name('account')->middleware('auth');
 Route::post('/register', [RegisterController::class, 'register'])->name('register');
+Route::post('/account/update-avatar', [AccountController::class, 'updateAvatar'])->name('account.updateAvatar');
