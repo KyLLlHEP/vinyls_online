@@ -30,8 +30,13 @@
                             <span class="cart-price">£350</span>
                         </div>
                         <div class="user-avatar">
-                            <img  class = "avatar-img" src="../images/avatar.png" alt="User Avatar">
-                            <a class = "login_link" href="/user">Login/Register</a>
+                            <img class="avatar-img" src="../images/avatar.png" alt="User Avatar">
+                            @auth
+                                <a class="login_link" href="/account">{{ Auth::user()->nickname }}</a>
+                            @endauth
+                            @guest
+                                <a class="login_link" href="/login">Login/Register</a>
+                            @endguest
                         </div>
                     </div>
                 </div>
