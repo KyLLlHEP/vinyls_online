@@ -31,14 +31,12 @@
                         </div>
                         <div class="user-avatar">
                         <img class="avatar-img" src="{{ asset('storage/' . (Auth::user()->avatar ?? 'path_to_default_avatar.jpg')) }}" alt="User Avatar" class="img-thumbnail">
-
-
                             <!-- <img class="avatar-img" src="../images/avatar.png" alt="User Avatar"> -->
                             @auth
                                 <a class="login_link" href="/account">{{ Auth::user()->nickname }}</a>
                             @endauth
                             @guest
-                                <a class="login_link" href="/login">Login/Register</a>
+                                <a class="login_link" href="/auth-choice">Login/Register</a>
                             @endguest
                         </div>
                     </div>

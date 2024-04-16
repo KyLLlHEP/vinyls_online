@@ -3,24 +3,64 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AccountController;
 use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\AuthController;
+use Laravel\Fortify\Http\Controllers\AuthenticatedSessionController;
+use App\Http\Controllers\Auth\LoginController;
 
 
 Route::get('/', function () {
     return view('index');
 })->name('index');
-Route::get('/login', function () {
-    return view('login');
+
+//
+// Register use controller from Fortify
+Route::get('/login', [AuthenticatedSessionController::class, 'create'])
+    ->middleware('guest')
+    ->name('login');
+
+Route::post('/login', [AuthenticatedSessionController::class, 'store'])
+    ->middleware('guest');
+
+Route::post('/logout', [AuthenticatedSessionController::class, 'destroy'])
+    ->middleware('auth')
+    ->name('logout');
+
+Route::get('/register', [AuthenticatedSessionController::class, 'create'])
+    ->middleware('guest')
+    ->name('register');
+
+Route::post('/register', [RegisterController::class, 'register'])
+    ->middleware('guest');
+
+// User profile
+Route::middleware(['auth:sanctum', 'verified'])->group(function () {
+    Route::get('/account', [AccountController::class, 'index'])->name('account');
+    Route::post('/account/update-avatar', [AccountController::class, 'updateAvatar'])->name('account.updateAvatar');
 });
+
+// Check has route /user (if needed)
+Route::get('/user', function () {
+    return view('user');
+})->middleware('auth');
+//
+Route::get('/auth-choice', function () {
+    return view('auth-choice');
+})->name('auth-choice');
+//
 Route::get('/register', function () {
     return view('register');
 });
+//
 Route::get('/user', function () {
     return view('user');
 });
-// Route::get('/account', function () {
-//     return view('account');
-// });
+//
+Route::get('/userLogin', function () {
+    return view('userLogin');
+})->name('login');
 
-Route::get('/account', [AccountController::class, 'index'])->name('account')->middleware('auth');
+
 Route::post('/register', [RegisterController::class, 'register'])->name('register');
 Route::post('/account/update-avatar', [AccountController::class, 'updateAvatar'])->name('account.updateAvatar');
+Route::middleware(['auth:sanctum', 'verified'])->get('/account', [AuthController::class, 'account'])->name('account');
+Route::post('/userLogin', [LoginController::class, 'login']);

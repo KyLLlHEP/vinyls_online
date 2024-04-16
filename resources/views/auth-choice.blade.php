@@ -16,7 +16,7 @@
         <div class="col-md-6 text-center">
             <h2 class="mb-4">Welcome to Vinyls Online!</h2>
             <div class="d-grid gap-2 col-6 mx-auto">
-                <a href="/login" class="btn btn-primary btn-lg">Login</a>
+                <a href="/userLogin" class="btn btn-primary btn-lg">Login</a>
                 <a href="/register" class="btn btn-secondary btn-lg">Register</a>
             </div>
         </div>
