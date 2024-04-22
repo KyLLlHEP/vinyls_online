@@ -6,13 +6,12 @@ use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\AuthController;
 use Laravel\Fortify\Http\Controllers\AuthenticatedSessionController;
 use App\Http\Controllers\Auth\LoginController;
+use App\Http\Controllers\Auth\VinylController;
 
 
 Route::get('/', function () {
     return view('index');
 })->name('index');
-
-//
 // Register use controller from Fortify
 Route::get('/login', [AuthenticatedSessionController::class, 'create'])
     ->middleware('guest')
@@ -58,9 +57,18 @@ Route::get('/user', function () {
 Route::get('/userLogin', function () {
     return view('userLogin');
 })->name('login');
-
+//
+Route::get('/addVinyls', function () {
+    return view('addVinyls');
+})->name('addVinyls');
+//
+Route::get('/vinylCatalog', function () {
+    return view('vinylCatalog');
+})->name('vinylCatalog');
+//
 
 Route::post('/register', [RegisterController::class, 'register'])->name('register');
 Route::post('/account/update-avatar', [AccountController::class, 'updateAvatar'])->name('account.updateAvatar');
 Route::middleware(['auth:sanctum', 'verified'])->get('/account', [AuthController::class, 'account'])->name('account');
 Route::post('/userLogin', [LoginController::class, 'login']);
+Route::post('/submitVinyl', [VinylController::class, 'store'])->name('submitVinyl')->middleware('auth');

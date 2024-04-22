@@ -21,9 +21,9 @@
                     <div class="menu-container">
                         <ul class = "header-menu">
                             <li class="menu-item"><a class="menu-link" href="#">Home</a></li>
-                            <li class="menu-item"><a class="menu-link" href="#">Latest</a></li>
+                            <li class="menu-item"><a class="menu-link" href="/vinylCatalog">Vinyl Catalog</a></li>
                             <li class="menu-item"><a class="menu-link" href="#">Albums</a></li>
-                            <li class="menu-item"><a class="menu-link" href="#">Single</a></li>
+                            <li class="menu-item"><a class="menu-link" href="/addVinyls">Add Vinyls</a></li>
                         </ul>
                         <div class="cart">
                             <img class = "cart-img"  src="../images/shop-basket.svg" alt="Shopping Trolly">
