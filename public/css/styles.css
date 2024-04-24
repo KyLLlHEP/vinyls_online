@@ -1,0 +1,14 @@
+@import "_normalize.css";
+@import "_global.css";
+@import "_variable.css";
+
+/* COMPONENT */
+@import "./component/_header.css";
+@import "./component/_home.css";
+@import "./component/_choose.css";
+@import "./component/_catalogue.css";
+@import "./component/_record.css";
+@import "./component/_footer.css";
+@import "./component/_login.css";
+@import "./component/_newVinyls.css";
+@import "./component/_vinylCatalog.css";

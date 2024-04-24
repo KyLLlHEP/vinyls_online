@@ -1,0 +1,41 @@
+main {
+    width: 1660px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.content-container {
+    width: 1630px;
+    margin: 0 auto;
+    height: 100%;
+}
+.alternative-rock {
+    color: var(--rose-pink);
+}
+.alternative-rock-bg {
+    background-color: var(--rose-pink);
+}
+.hip-hop {
+    color: var(--cerulean-blue);
+}
+.hip-hop-bg {
+    background-color: var(--cerulean-blue);
+}
+.punk-rock {
+    color: var(--jungle-green);
+}
+.punk-rock-bg {
+    background-color: var(--jungle-green);
+}
+.pop {
+    color: var(--light-pink);
+}
+.pop-bg {
+    background-color: var(--light-pink);
+}
+.funk {
+    color: var(--royal-blue);
+}
+.funk-bg {
+    background-color: var(--royal-blue);
+}

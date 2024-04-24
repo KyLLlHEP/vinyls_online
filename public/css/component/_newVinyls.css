@@ -1,0 +1,21 @@
+.vinyl-form-container {
+    background-color: var(--gray);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    margin-top: 50px;
+}
+.vinyl-form-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.vinyl-form {
+    width: 100%; /* Ширина формы в процентах от контейнера */
+}
+.form-label {
+    font-weight: bold; /* Жирное отображение меток */
+}
+.custom-file-input {
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
