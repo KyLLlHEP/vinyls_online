@@ -7,6 +7,7 @@ use App\Http\Controllers\AuthController;
 use Laravel\Fortify\Http\Controllers\AuthenticatedSessionController;
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Auth\VinylController;
+use App\Http\Controllers\VinylCatalogController;
 
 
 Route::get('/', function () {
@@ -72,3 +73,5 @@ Route::post('/account/update-avatar', [AccountController::class, 'updateAvatar']
 Route::middleware(['auth:sanctum', 'verified'])->get('/account', [AuthController::class, 'account'])->name('account');
 Route::post('/userLogin', [LoginController::class, 'login']);
 Route::post('/submitVinyl', [VinylController::class, 'store'])->name('submitVinyl')->middleware('auth');
+Route::get('/vinylCatalog', [VinylCatalogController::class, 'index'])->name('vinylCatalog');
+
