@@ -34,7 +34,10 @@
                      </form>
                 </div>
                 <div class="col-md-8">
-                    <!-- Content specific to the account page -->
+                    <form action="{{ route('logout') }}" method="POST">
+                        @csrf
+                        <button type="submit" class="btn btn-danger">Log Out</button>
+                    </form>
                 </div>
             </div>
         </div>

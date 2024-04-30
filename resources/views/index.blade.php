@@ -27,7 +27,7 @@
                         </ul>
                         <div class="cart">
                             <img class = "cart-img"  src="../images/shop-basket.svg" alt="Shopping Trolly">
-                            <span class="cart-price">£350</span>
+                            <span class="cart-price">£0</span>
                         </div>
                         <div class="user-avatar">
                         <img class="avatar-img" src="{{ asset('storage/' . (Auth::user()->avatar ?? 'path_to_default_avatar.jpg')) }}" alt="User Avatar" class="img-thumbnail">
