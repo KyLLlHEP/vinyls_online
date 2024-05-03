@@ -23,12 +23,12 @@ class VinylController extends Controller
             'price' => 'required|numeric',
         ]);
 
-        $user = Auth::user(); // Получаем аутентифицированного пользователя
+        $user = Auth::user(); // Getting an authenticated user
 
-        // Обработка загрузки изображения
+        // Handling Image Loading
         $path = $request->file('image_path')->store('public/vinyls');
 
-        // Создание новой записи о виниле
+        // Creating a new vinyl record
         $vinyl = new Vinyl([
             'user_id' => $user->id,
             'nickname' => $user->nickname,
