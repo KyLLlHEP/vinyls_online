@@ -74,4 +74,3 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/account', [AuthController
 Route::post('/userLogin', [LoginController::class, 'login']);
 Route::post('/submitVinyl', [VinylController::class, 'store'])->name('submitVinyl')->middleware('auth');
 Route::get('/vinylCatalog', [VinylCatalogController::class, 'index'])->name('vinylCatalog');
-
