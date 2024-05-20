@@ -17,7 +17,7 @@
             <!-- Header same as index.blade.php -->
         </header>
         <div class="container mt-4">
-            <h1>My Accaunt</h1>
+            <h1>My Account</h1>
             <div class="row">
                 <div class="col-md-4">
                 <img src="{{ asset('storage/' . (Auth::user()->avatar ?? 'path_to_default_avatar.jpg')) }}" alt="User Avatar" class="img-thumbnail">
